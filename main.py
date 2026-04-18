@@ -120,7 +120,8 @@ WHERE age >= (
     LIMIT 1 OFFSET 3
 )
 ORDER BY breed ASC;
-""", conn2)print("\n=== Step 8: 4 oldest dogs sorted by breed ===")
+""", conn2)
+print("\n=== Step 8: 4 oldest dogs sorted by breed ===")
 print(df_4_oldest)
 
 # =============================================================================
